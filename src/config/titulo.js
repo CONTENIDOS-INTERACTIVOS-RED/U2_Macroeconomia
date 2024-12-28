@@ -1,1 +1,1 @@
-module.exports = 'CIRED'
+module.exports = 'Modelos macroeconómicos'
