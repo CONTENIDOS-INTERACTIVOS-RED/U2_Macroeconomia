@@ -22,11 +22,8 @@
               .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
                 p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
                 h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-                p.descripcion.mb-4 La macroeconomía es fundamental para comprender cómo funcionan las economías a nivel global y nacional. En esta unidad, se estudiarán los conceptos esenciales de la macroeconomía, como el Producto Interno Bruto (PIB), la inflación, el desempleo y la balanza de pagos, permitiendo entender las dinámicas económicas y sus implicaciones en la sociedad. Además, se analizarán las diferencias entre micro y macroeconomía, brindando una visión integral de estas disciplinas.
-
-                p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Explora cómo los fenómenos económicos influyen en tu vida diaria y adquiere herramientas para analizarlos críticamente!
-
-  
+                p.descripcion.mb-4 Desde los inicios del análisis económico, los modelos han sido herramientas fundamentales para comprender el funcionamiento de las economías modernas. En esta unidad, se profundiza en los modelos macroeconómicos, los cuales ofrecen representaciones simplificadas de las interacciones entre hogares, empresas y gobiernos, así como de los factores externos como la globalización.
+                p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárese para comprender cómo las decisiones económicas impactan nuestra vida diaria y las dinámicas globales!
                 .button-container.mt-auto
                   router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                     .iniciar-btn-container.w-100.w-md-auto

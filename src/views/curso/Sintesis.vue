@@ -2,7 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La Unidad I: Introducción a la macroeconomía, establece los conceptos esenciales para comprender el funcionamiento de las economías nacionales y globales. A través del análisis de indicadores macroeconómicos como el PIB, la inflación, el desempleo y la balanza de pagos, esta unidad proporciona una base sólida para interpretar y evaluar el desempeño económico. Este enfoque integral garantiza que los estudiantes adquieran las herramientas necesarias para analizar los fenómenos económicos y sus implicaciones en la sociedad, fomentando una perspectiva crítica que será clave en su formación académica y profesional.
+    p.mb-4.mb-md-5 La Unidad 2: Teoría del consumidor y del productor, profundiza en los principios esenciales de la microeconomía, abordando cómo los consumidores optimizan su bienestar bajo restricciones presupuestarias y cómo las empresas gestionan su producción y costos para maximizar sus beneficios. A través de un análisis detallado de las preferencias, restricciones, utilidad y decisiones de producción, esta unidad proporciona herramientas claves para interpretar y aplicar conceptos económicos en contextos prácticos. Este enfoque integral sienta las bases para una comprensión sólida del comportamiento de los agentes económicos y su impacto en los mercados.
     figure
       img(src='@/assets/curso/sintesis/sintesis.svg', alt='Texto que describa la imagen')
     
