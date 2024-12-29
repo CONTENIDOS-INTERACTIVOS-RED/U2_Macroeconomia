@@ -82,7 +82,7 @@
           .col-lg-7
              h2.mb-4 Factores que desplazan la curva de oferta y demanda agregada
              p.mb-4 En el análisis macroeconómico, el modelo de oferta y demanda agregada se presenta como una herramienta esencial para comprender las dinámicas de producción, precios y políticas económicas en una economía. Este modelo no solo facilita el entendimiento del equilibrio entre oferta y demanda, sino que también permite explorar cómo diversos factores, internos y externos, influyen en la actividad económica, impactando variables clave como la inflación, el empleo y el crecimiento. Este recurso teórico se convierte en un marco valioso para analizar las respuestas de los mercados frente a cambios en las políticas fiscales y monetarias, así como para prever las fluctuaciones económicas. En el PDF #[b Factores que desplazan la curva de oferta y demanda agregada], se profundizará en los factores que desplazan estas curvas, destacando su impacto en la economía y su relevancia en el diseño de políticas públicas.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/factores.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
