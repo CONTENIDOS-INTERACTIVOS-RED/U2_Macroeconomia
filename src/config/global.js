@@ -49,25 +49,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: '',
+        titulo: 'Modelo de oferta y demanda agregada',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: '',
+            titulo: 'Visión amplia de la microeconomía y la macroeconomía',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: '',
+            titulo: 'Funcionamiento del modelo',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: '',
+            titulo:
+              'Factores que desplazan la curva de oferta y demanda agregada',
             hash: 't_2_3',
           },
           {
