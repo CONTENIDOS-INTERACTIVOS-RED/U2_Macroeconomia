@@ -15,26 +15,33 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: '',
+        titulo: 'Modelo del flujo circular',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: '',
+            titulo: 'Definición del modelo de flujo circular económico ',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: '',
+            titulo: 'Actores principales',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: '',
+            titulo:
+              'Factores adicionales: la globalización y otras variables influyentes',
             hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Cálculo del PIB',
+            hash: 't_1_4',
           },
         ],
       },
