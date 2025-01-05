@@ -1,6 +1,6 @@
 export default {
   global: {
-    numeroUnidad: '1',
+    numeroUnidad: '2',
     tituloUnidad: 'Modelos macroeconómicos',
   },
   menuPrincipal: {
