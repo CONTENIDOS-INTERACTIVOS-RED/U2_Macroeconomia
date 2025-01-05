@@ -320,7 +320,36 @@
 
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://doi.org/10.22267/rtend.222301.194' target='_blank' rel='noopener noreferrer') Nieves Mendoza, Leidy Milena, & Morales Cely, William Alonso. (2022). Una mirada a la brecha entre actitud y comportamiento del consumidor en la economía circular. Tendencias, 23(1), p.p. 372-394.
+ 
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.banrep.gov.co/es' target='_blank' rel='noopener noreferrer') Banco de la República Colombia
+ 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.canva.com/' target='_blank' rel='noopener noreferrer') Canva
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/Rx3BNWEVBbw?si=z9RywXVe8ju1b9U' target='_blank' rel='noopener noreferrer') Sustraction h. (2016). Flujo circular de la renta (video). YouTube.
 
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 

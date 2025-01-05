@@ -99,14 +99,37 @@
 
 
     p.mb-4(data-aos='fade-up') Es así como el crecimiento económico enfrenta desafíos como la sostenibilidad ambiental, la desigualdad y la inestabilidad económica. A medida que las economías crecen, la explotación de los recursos naturales y el cambio climático, ponen en riesgo su continuidad. Sin embargo, también surgen oportunidades al adoptar modelos de crecimiento más sostenibles, como la economía verde y circular, y al aprovechar innovaciones tecnológicas como la energía renovable y la digitalización. 
-    .p-4.bg-1.mb-0(data-aos='fade-up')
+    .p-4.bg-1.mb-5
       .row.align-items-center
         .col-lg-auto.d-none.d-lg-block
           img(src='@/assets/curso/t3/8.svg', style='max-width: 90px').mx-auto
         .col-lg
           p.mb-0 La creación de políticas inclusivas y equitativas, junto con instituciones fuertes y estabilidad política, puede garantizar un crecimiento duradero. El reto está en redefinir el crecimiento económico para que sea no solo más eficiente, sino también más inclusivo y ambientalmente responsable, asegurando un futuro sostenible para las generaciones venideras.
 
-
+    .bg-full-width.border-top.color-primario.mt-5
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style='{"max-width":"16px"}')
+              a(:href='obtenerLink("/downloads/art14.pdf")' target='_blank' rel='noopener noreferrer') Álvarez Herranz, A., E Barraza, J. S. & Legato, A. M. (2009). Inversión extranjera directa y crecimiento económico en Latinoamérica. Información Tecnológica, 20(6), pp. 115-124.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://datos.bancomundial.org/indicador' target='_blank' rel='noopener noreferrer') Banco Mundial
+           
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.perplexity.ai/' target='_blank' rel='noopener noreferrer') Perplexity
+            
+            
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
     .bg-full-width.border-top.actividad.ctn-actividad
       .p-4.p-md-5
         #Actividad                

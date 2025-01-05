@@ -76,7 +76,7 @@
     #t_2_3.titulo-segundo(data-aos='fade-up')
       h2 #[span 2.3] Factores que desplazan la curva de oferta y demanda agregada
     p.mb-4(data-aos='fade-up') El modelo de oferta y demanda agregada es clave para comprender cómo interactúan los factores económicos que determinan la producción y los precios. Este análisis permite evaluar el impacto de las políticas públicas y los cambios en el comportamiento de los agentes económicos.
-    .bg-full-width.bg-3.mb-0(data-aos='fade-up')
+    .bg-full-width.bg-3.mb-5(data-aos='fade-up')
       .p-5
         .row.justify-content-center.align-items-center
           .col-lg-7
@@ -90,7 +90,36 @@
           .col-lg-5.d-none.d-lg-block
              img(src='@/assets/curso/t2/9.svg', alt='')
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://core.ac.uk/download/pdf/235852065.pdf' target='_blank' rel='noopener noreferrer') Orjuela Arfunduaga, H. M. (2014). Una metodología de enseñanza de la teoría económica, aplicada al Modelo Macroeconómico de Oferta y Demanda Agregada.
 
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.imf.org/es/Home' target='_blank' rel='noopener noreferrer') Fondo Monetario Internacional
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.coursehero.com/' target='_blank' rel='noopener noreferrer') CourseHero 
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/yblQRM7BGc?si=zDfccDci3cl-Fs28' target='_blank' rel='noopener noreferrer') SoloPapelyBoli. (2023). 2.1 Cálculo del PIB (video). YouTube.
+ 
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 </template>
 
