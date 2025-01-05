@@ -107,7 +107,10 @@
           p.mb-0 La creación de políticas inclusivas y equitativas, junto con instituciones fuertes y estabilidad política, puede garantizar un crecimiento duradero. El reto está en redefinir el crecimiento económico para que sea no solo más eficiente, sino también más inclusivo y ambientalmente responsable, asegurando un futuro sostenible para las generaciones venideras.
 
 
-
+    .bg-full-width.border-top.actividad.ctn-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario='cuestionario'/>
 
 
 
@@ -122,6 +125,180 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Macroeconomía',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto: '¿Cuál es el principal objetivo de la macroeconomía?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Estudiar el comportamiento individual de los consumidores',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Analizar el funcionamiento de la economía en su conjunto',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Examinar los precios de productos específicos',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Investigar las decisiones de empresas individuales',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La macroeconomía estudia la economía a gran escala, considerando factores como el PIB, el desempleo y la inflación.',
+          mensaje_incorrecto:
+            'Lo sentimos, esa no es la respuesta correcta. La macroeconomía se enfoca en el estudio de la economía en su conjunto.',
+        },
+        {
+          id: 2,
+          texto: 'La balanza de pagos se divide principalmente en:',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Importaciones y exportaciones únicamente',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Cuenta corriente y cuenta de capital y financiera',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Bienes y servicios solamente',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Deuda externa e interna',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La balanza de pagos se divide en estos dos componentes fundamentales.',
+          mensaje_incorrecto:
+            'Lo sentimos, esa no es la respuesta correcta. La balanza de pagos tiene dos componentes principales.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Qué tipo de desempleo refleja el tiempo de transición entre empleos o cambios en las condiciones laborales?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Desempleo estructural',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Desempleo friccional',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Desempleo cíclico',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Desempleo voluntario',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El desempleo friccional ocurre durante los períodos de transición entre empleos.',
+          mensaje_incorrecto:
+            'Lo sentimos, esa no es la respuesta correcta. El tipo de desempleo que refleja transiciones laborales es el friccional.',
+        },
+        {
+          id: 4,
+          texto:
+            'El PIB se puede calcular mediante los siguientes enfoques, EXCEPTO:',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Enfoque de producción',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Enfoque de ingreso',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Enfoque del gasto',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Enfoque de la inflación',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Muy bien, el PIB no se calcula con el enfoque de la inflación, sino a través de los enfoques de producción, ingreso y gasto. La inflación es un fenómeno relacionado, pero no es una forma de medir el PIB directamente.',
+          mensaje_incorrecto:
+            'Lo sentimos, esa no es la respuesta correcta. Recuerda que buscamos el enfoque que NO se usa para calcular el PIB.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cuál de los siguientes NO es un factor de producción en economía?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Tierra',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Capital',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Trabajo',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Inflación',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Es correcto. La inflación no es un factor de producción. Los factores de producción son la tierra, el capital y el trabajo, que son esenciales para la producción de bienes y servicios.',
+          mensaje_incorrecto:
+            'Lo sentimos, esa no es la respuesta correcta. Recuerda que los factores de producción son los elementos necesarios para producir bienes y servicios.',
+        },
+      ],
+      mensaje_final_aprobado:
+        '¡Felicitaciones! Has demostrado un buen entendimiento de los conceptos macroeconómicos.',
+      mensaje_final_reprobado:
+        'Te recomendamos repasar los conceptos de macroeconomía para mejorar tu comprensión del tema.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
