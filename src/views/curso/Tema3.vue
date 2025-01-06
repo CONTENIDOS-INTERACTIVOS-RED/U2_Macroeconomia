@@ -150,7 +150,7 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Macroeconomía',
+      tema: 'Modelos macroeconómicos',
       titulo: 'Ponte a prueba',
       introduccion:
         'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -158,168 +158,169 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto: '¿Cuál es el principal objetivo de la macroeconomía?',
+          texto:
+            '¿Cuál es el principal objetivo del modelo de flujo circular en la macroeconomía?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Estudiar el comportamiento individual de los consumidores',
+              texto: 'Representar únicamente el flujo de dinero en la economía',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Analizar el funcionamiento de la economía en su conjunto',
+              texto:
+                'Mostrar la interacción entre hogares, empresas y gobierno',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Examinar los precios de productos específicos',
+              texto: 'Analizar exclusivamente el papel del gobierno',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Investigar las decisiones de empresas individuales',
+              texto: 'Estudiar solo el comportamiento de los consumidores',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La macroeconomía estudia la economía a gran escala, considerando factores como el PIB, el desempleo y la inflación.',
+            '¡Correcto! El modelo de flujo circular muestra las interacciones entre los diferentes agentes económicos.',
           mensaje_incorrecto:
-            'Lo sentimos, esa no es la respuesta correcta. La macroeconomía se enfoca en el estudio de la economía en su conjunto.',
+            'No es correcto. Revisa el concepto del modelo de flujo circular.',
         },
         {
           id: 2,
-          texto: 'La balanza de pagos se divide principalmente en:',
+          texto:
+            'En el modelo de oferta y demanda agregada, ¿qué ocurre cuando aumentan los precios?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Importaciones y exportaciones únicamente',
+              texto: 'La demanda agregada aumenta',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Cuenta corriente y cuenta de capital y financiera',
+              texto: 'La oferta agregada disminuye',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Bienes y servicios solamente',
+              texto: 'La oferta agregada aumenta',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Deuda externa e interna',
+              texto: 'La demanda y oferta permanecen constantes',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La balanza de pagos se divide en estos dos componentes fundamentales.',
+            '¡Correcto! Cuando aumentan los precios, la oferta agregada disminuye.',
           mensaje_incorrecto:
-            'Lo sentimos, esa no es la respuesta correcta. La balanza de pagos tiene dos componentes principales.',
+            'No es correcto. Revisa la relación entre precios y oferta agregada.',
         },
         {
           id: 3,
           texto:
-            '¿Qué tipo de desempleo refleja el tiempo de transición entre empleos o cambios en las condiciones laborales?',
+            '¿Qué factores son considerados exógenos en los modelos de crecimiento económico tradicionales?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Desempleo estructural',
+              texto: 'El capital humano',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Desempleo friccional',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Desempleo cíclico',
+              texto: 'La innovación empresarial',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'El progreso tecnológico',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Desempleo voluntario',
+              texto: 'Las políticas fiscales',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Correcto! El desempleo friccional ocurre durante los períodos de transición entre empleos.',
+            '¡Correcto! El progreso tecnológico es considerado un factor exógeno en los modelos tradicionales.',
           mensaje_incorrecto:
-            'Lo sentimos, esa no es la respuesta correcta. El tipo de desempleo que refleja transiciones laborales es el friccional.',
+            'No es correcto. Revisa los factores exógenos en los modelos de crecimiento.',
         },
         {
           id: 4,
           texto:
-            'El PIB se puede calcular mediante los siguientes enfoques, EXCEPTO:',
+            '¿Cuál de los siguientes NO es un componente del PIB según el enfoque del gasto?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Enfoque de producción',
+              texto: 'Consumo privado',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Enfoque de ingreso',
+              texto: 'Gasto público',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Enfoque del gasto',
-              esCorrecta: false,
+              texto: 'Salarios laborales',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Enfoque de la inflación',
-              esCorrecta: true,
+              texto: 'Exportaciones netas',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Muy bien, el PIB no se calcula con el enfoque de la inflación, sino a través de los enfoques de producción, ingreso y gasto. La inflación es un fenómeno relacionado, pero no es una forma de medir el PIB directamente.',
+            '¡Correcto! Los salarios laborales no son un componente del PIB según el enfoque del gasto.',
           mensaje_incorrecto:
-            'Lo sentimos, esa no es la respuesta correcta. Recuerda que buscamos el enfoque que NO se usa para calcular el PIB.',
+            'No es correcto. Revisa los componentes del PIB bajo el enfoque del gasto.',
         },
         {
           id: 5,
           texto:
-            '¿Cuál de los siguientes NO es un factor de producción en economía?',
+            '¿Qué caracteriza a la fase de expansión en un ciclo económico?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Tierra',
-              esCorrecta: false,
+              texto: 'Disminución del desempleo',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Capital',
+              texto: 'Caída en la producción',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Trabajo',
+              texto: 'Reducción del consumo',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Inflación',
-              esCorrecta: true,
+              texto: 'Aumento de la inflación',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Es correcto. La inflación no es un factor de producción. Los factores de producción son la tierra, el capital y el trabajo, que son esenciales para la producción de bienes y servicios.',
+            '¡Correcto! El aumento del desempleo caracteriza la fase de expansión.',
           mensaje_incorrecto:
-            'Lo sentimos, esa no es la respuesta correcta. Recuerda que los factores de producción son los elementos necesarios para producir bienes y servicios.',
+            'No es correcto. Revisa las características de la fase de expansión en el ciclo económico.',
         },
       ],
-      mensaje_final_aprobado:
-        '¡Felicitaciones! Has demostrado un buen entendimiento de los conceptos macroeconómicos.',
+      mensaje_final_aprobado: '¡Felicidades! Has superado la prueba con éxito.',
       mensaje_final_reprobado:
-        'Te recomendamos repasar los conceptos de macroeconomía para mejorar tu comprensión del tema.',
+        'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
     },
   }),
   mounted() {
