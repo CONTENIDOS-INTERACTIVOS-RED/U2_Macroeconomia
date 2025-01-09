@@ -9,7 +9,7 @@
         p.mb-0 El modelo de oferta y demanda agregada es una herramienta de aplicación en la macroeconomía, utilizada para analizar las fluctuaciones de la economía a corto plazo, tales como la producción y los precios. Este modelo permite comprender las fases recesivas y expansivas que atraviesa una economía dentro de su tendencia de crecimiento a largo plazo. Asimismo, facilita el análisis de los efectos de las políticas macroeconómicas, como las políticas monetaria y fiscal. En este modelo se integran las perspectivas de las teorías clásica y keynesiana para evaluar la efectividad de estas políticas, a través de supuestos sobre la flexibilidad de los precios y los salarios. La interpretación del modelo y las conclusiones varían según los supuestos utilizados, lo que influye directamente en el tipo de políticas económicas que se consideran eficaces en diferentes contextos.
    
     #t_2_1.titulo-segundo(data-aos='fade-up')
-      h2 #[span 2.1] Visión amplia de la microeconomía y la macroeconomía
+      h2 #[span 2.1] Definición del concepto: oferta y demanda agregada
     .bg-7.mb-5(data-aos='fade-up')
       .row.justify-content-center.align-items-center
         .col-lg

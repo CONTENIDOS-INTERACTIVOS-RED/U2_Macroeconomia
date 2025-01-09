@@ -55,7 +55,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Visión amplia de la microeconomía y la macroeconomía',
+            titulo: 'Definición del concepto: oferta y demanda agregada',
             hash: 't_2_1',
           },
           {
@@ -230,7 +230,7 @@ export default {
     {
       termino: 'Producto Nacional Bruto (PNB)',
       significado:
-        'Mide el valor total de la producción de bienes y servicios realizada por los residentes de un pa��s, tanto dentro como fuera de sus fronteras. Se diferencia del PIB en que incluye la producción de los residentes nacionales en el extranjero y excluye la de los extranjeros en el país.',
+        'Mide el valor total de la producción de bienes y servicios realizada por los residentes de un país, tanto dentro como fuera de sus fronteras. Se diferencia del PIB en que incluye la producción de los residentes nacionales en el extranjero y excluye la de los extranjeros en el país.',
     },
   ],
   complementario: [],
