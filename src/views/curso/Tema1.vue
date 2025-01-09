@@ -114,8 +114,9 @@
     p.mb-4(data-aos='fade-up') Para estudiar esta temática, lo invitamos a ver el siguiente video:
     figure.mb-4(data-aos='fade-up')
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/3lTb2QTmjzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Factores adicionales: la globalización y otra variables influyentes
+
     p.mb-4(data-aos='fade-up') Otras variables influyentes en el modelo macroeconómico, son los tipos de interés (r), los precios de los bienes (PL) y expectativas del mercado, lo mismo que la política fiscal y monetaria de cada gobierno.
     .row.justify-content-center.mb-5(data-aos='fade-up')
       .col-sm-12.col-lg-8.bg-9.p-4
